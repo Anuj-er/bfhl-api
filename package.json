@@ -1,0 +1,23 @@
+{
+  "name": "bfhl-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "REST API for BFHL operations",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "bfhl"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  }
+}
